@@ -244,7 +244,7 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the solarcoin.org server.
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the solarcoin.org server and site including new graphics.
 
 ```
 
@@ -252,13 +252,17 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
 
 - Announce the release:
 
-  - solarcoin-dev and solarcoin-dev mailing list
-
-  - blog.solarcoin.org blog post
+  - solarcoins slack
+  
+  - solarcoin-group slack
+  
+  - Bittrex & other exchanges found at https://coinmarketcap.com/currencies/solarcoin/#markets
+  
+  - Chainz Explorer https://chainz.cryptoid.info/slr/#!rich and others as added.
 
   - Update title of #solarcoin and #solarcoin-dev on Freenode IRC
 
-  - Optionally twitter, reddit /r/SolarCoin, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/SolarCoin, bitcointalk ... but this will usually sort out itself
 
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
