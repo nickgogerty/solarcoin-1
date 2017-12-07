@@ -20,7 +20,7 @@ SolarCoin [SLR] is a lite version of Bitcoin using scrypt as a proof-of-work alg
 - Genesis Block Hash: edcf32dbfd327fe7f546d3a175d91b05e955ec1224e087961acc9a2aa8f592ee
 - Merkle Root: 33ecdb1985425f576c65e2c85d7983edc6207038a2910fefaf86cfb4e53185a3
 
-Harforks: 
+Hardforks: 
 Block 310,000 (Implemented block reduction & Patched KGW retargeting algorithm)
 
 QR Code Support
